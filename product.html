@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tablet Marketplace</title>
+    <!-- Bootstrap -->
+	<link href="css/bootstrap-4.0.0.css" rel="stylesheet">
+	<link href="css/tabletmarketplace.css" rel="stylesheet" type="text/css">
+  <!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--><script>var __adobewebfontsappname__="dreamweaver"</script><script src="http://use.edgefonts.net/league-gothic:n4:default;passion-one:n4:default;source-sans-pro:n4,n2:default.js" type="text/javascript"></script>
+</head>
+<body style="padding-top: 50px; padding-bottom: 50px;">
+<nav class="navbar fixed-top navbar-expand-lg bg-light col-xl-12"><a class="navbar-brand" href="index.html"><img src="images/logo 1 50.png" alt="Logo" width="419" height="25"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">Menu</button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"> <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="marketplace.html">Marketplace</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="compare.html">Compare</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="manufacturers.html">Manufacturers</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="contact.html">Contact Us</a> </li>
+		<li class="nav-item"> <a class="nav-link" href="about.html">About Us</a>
+        </li>
+		<a href="signin.html">
+		<button type="button" class="btn btn-sm">Sign In</button>
+		</a>
+      </ul>
+</div>
+</nav>
+	  
+<!-- body code starts here -->
+<div class="container">
+  <div id="product-display" class="container"><img src="images/banner-placeholder-1200x400.jpg" class="img-fluid" alt="Placeholder image"></div>
+<div id="product-previews" class="container">
+	<div id="product-images">
+	  <div class="row">
+	    <div class="col-xl-4"><img src="images/gallery-sub-image-340x70.jpg" class="img-fluid" alt="Placeholder image"></div>
+	    <div class="col-xl-4"><img src="images/gallery-sub-image-340x70.jpg" class="img-fluid" alt="Placeholder image"></div>
+	    <div class="col-xl-4"><img src="images/gallery-sub-image-340x70.jpg" class="img-fluid" alt="Placeholder image"></div>
+      </div>
+    </div>
+  </div>
+  <div id="product-info" class="container">
+    <div class="row">
+      <div id="product-text" class="col-xl-6"><h3>Product Title</h3>
+        <p>Basic product information.
+			<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sed arcu non odio euismod lacinia at quis risus sed. Pellentesque massa placerat duis ultricies. Tellus molestie nunc non blandit.. &nbsp;</p>
+		  <ul>
+			  <li>Resolution</li>
+			  <li>Viewing Angle</li>
+			  <li>Pen Pressure Sensitivity</li>
+			  <li>Compatibility</li>
+			  <li>Accessories</li>
+		  </ul>
+      </div>
+      <div class="col-xl-6">
+<div class="container-fluid">
+          <ul id="tabs-specs" class="nav nav-tabs" role="tablist">
+            <li class="nav-item"> <a class="nav-link active" href="#home1" id="hometab1" role="tab" data-toggle="tab" aria-controls="home" aria-expanded="true">Overview</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#paneTwo1" role="tab" id="hatstab1" data-toggle="tab" aria-controls="hats">Specifications</a></li>
+            <li class="nav-item"> <a class="nav-link" href="#paneTwo2" role="tab" id="hatstab2" data-toggle="tab" aria-controls="hats">Warranty</a></li>
+          </ul>
+          <!-- Content Panel -->
+          <div id="tabs-specs-content" class="tab-content">
+            <div role="tabpanel" class="tab-pane fade show active" id="home1" aria-labelledby="hometab1">
+              <p><b>Product Name</b>
+				  <br>About Manufacturer
+				  <br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+				  <br><br>Product Details
+				  <br>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="paneTwo1" aria-labelledby="hatstab1">
+              <p>Model</p>
+				<ul>
+					<li>Brand: brand name</li>
+					<li>Series: series name</li>
+					<li>Model: model id</li>
+				</ul>
+			  <p>Details</p>
+			  <ul>
+					<li>Interface: type</li>
+					<li>Dimensions: Measurements</li>
+					<li>Active Area: Measurements</li>
+				    <li>Pressure Levels: levels</li>
+				    <li>Resolution: lpi</li>
+				</ul>
+            </div>
+           
+			  <div role="tabpanel" class="tab-pane fade" id="paneTwo2" aria-labelledby="hatstab2">
+              <p>Manufacturer Contact Info</p>
+				
+			  <p>Return Policies</p>
+			 
+            </div>
+			  
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- body code ends here -->
+
+<nav id="bottom-navbar" class="navbar navbar-default navbar-fixed-bottom">
+	<div class="container">
+		<div class="nav navbar-nav">
+			<p>Contact Us</p>
+			<p>Phone: 405-555-1234</p>
+			<p>Email: tabletmarketplace@gmail.com</p>
+		</div>
+		<div class="nav navbar-nav navbar-right">
+			<a href="https://facebook.com/"><img src="images/icon_facebook.png" width="33" height="33" alt=""/></a>
+			<a href="https://twitter.com/"><img src="images/icon_twitter.png" width="33" height="33" alt=""/></a>
+			<a href="https://google.com/"><img src="images/icon_google.png" width="33" height="33" alt=""/></a>
+	  </div>
+	</div>
+	
+</nav>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/popper.min.js"></script> 
+<script src="js/bootstrap-4.0.0.js"></script>
+</body>
+</html>
