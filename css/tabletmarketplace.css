@@ -4,9 +4,9 @@
 body{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	font-family: source-sans-pro;
+	font-family: league-gothic;
 	font-style: normal;
-	font-weight: 200;
+	font-weight: 400;
 }
 .container-fluid .row .col-xl-4 {
 	text-align: center;
@@ -336,4 +336,58 @@ body {
 
 #bottom-navbar{
 	margin-top: 15px;
+}
+
+#manufacturer-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#compare-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#contact-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#about-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#signin-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#product-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#article-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#marketplace-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
+}
+
+#index-body{
+	margin-bottom: 400px;
+	margin-top-width: 100px;
+	margin-top: 100px;
 }
